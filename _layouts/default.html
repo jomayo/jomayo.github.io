@@ -1,11 +1,14 @@
 <!DOCTYPE html>
 <html>
 	{% include head.html %}
+	<!-- flex container--> 
 	<body>
 		{% include header.html %}
-		
-		{{ content }}
-
+		<!-- container template / flexbox. technically also a flexbox item-->
+		<div class="content-container">
+			{{ content }}
+		</div>
+		<!-- footer template -->
 		{% include footer.html %}
 	</body>
 </html>

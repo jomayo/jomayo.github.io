@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<title>Test Page: Don't Panic</title>
+	<link href="/favicon.png" rel="icon">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans%7CRaleway:100" rel="stylesheet">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+	<link rel="stylesheet" href="/css/main.css">
+</head>
+
+
+	<!-- flex container--> 
+	<body>
+		<header class="header">
+	<nav>
+		<input type="checkbox" id="mobile-menu" class="mobile-menu-check">
+		<label for="mobile-menu" class="show-mobile-menu">Menu</label>
+		<ul class="header-nav nav-links">
+			<li><a href="/">Home</a></li>
+<li><a href="/gallery">Gallery</a></li>
+<li class="dropdown">
+	<a class="drop-trigger" href="/blog">Blog</a>
+	<ul class="drop-menu">
+		<li>Recent Posts</li>
+		
+			<li><a href="/2018/08/12/Shining-with-Jekyll.html">Shining with Jekyll</a></li>
+		
+			<li><a href="/2018/08/11/title-of-second-post.html">Feels like the first time...</a></li>
+		
+			<li><a href="/2018/08/10/title-of-post.html">This is the title of the post</a></li>
+		
+	</ul>
+</li>
+<li><a href="/2018/08/12/Shining-with-Jekyll.html">Newest Post</a></li>
+
+		</ul>
+	</nav>
+	<a href="/" class="header-logo">
+		<img src="/images/logo.png" alt="Learn Enough">
+	</a>
+</header>
+
+
+
+		<!-- container template / flexbox. technically also a flexbox item-->
+		<div class="content-container">
+			<div class="page blog-index">
+	<h1>Bloggie Blog</h1>
+	<div class="col-two blog-cols">
+		<div class="col col-aside blog-recent">
+			<h4>Recent Posts</h4>
+			<ul class="blog-title-list">
+				
+					<li>
+						<a href="/2018/08/12/Shining-with-Jekyll.html">Shining with Jekyll</a>
+						<span> john mayo </span>
+							<img src="https://gravatar.com/avatar/0a1ca7781578a0987c112f3950d32312?s=80">
+						<span>Posted: August 12, 2018</span>
+					</li>
+				
+					<li>
+						<a href="/2018/08/11/title-of-second-post.html">Feels like the first time...</a>
+						<span> john mayo </span>
+							<img src="https://gravatar.com/avatar/0a1ca7781578a0987c112f3950d32312?s=80">
+						<span>Posted: August 11, 2018</span>
+					</li>
+				
+					<li>
+						<a href="/2018/08/10/title-of-post.html">This is the title of the post</a>
+						<span> Me, Myself, and I </span>
+							<img src="https://gravatar.com/avatar/ffda7d145b83c4b118f982401f962ca6?s=150">
+						<span>Posted: August 10, 2018</span>
+					</li>
+				
+			</ul>
+		</div>
+		<div class="col col-content blog-previews">
+			
+				<div class="blog-posts">
+					<header class="post-header">
+						<h2><a href="/2018/08/12/Shining-with-Jekyll.html">Shining with Jekyll</a></h2>
+						<div class="post-byline">
+							<img src="https://gravatar.com/avatar/0a1ca7781578a0987c112f3950d32312?s=80">
+<a href="https://twitter.com/jmayoquai" class="social-link">
+	<i class="fab fa-twitter"></i>
+</a>
+by: john mayo
+<span>August 12, 2018</span>
+						</div>
+					</header>
+					<div class="posts-image"
+					style="background-image:url(/images/shark.jpg)"></div>
+					<p>So far I’m loving the ease of use with Jekyll. Easy to create formatted content with meta information contained in the frontmatter. On the whole it feels easier than messing with Wordpress (especially blasphemous coming from a noob)</p>
+
+
+					</div>
+			
+				<div class="blog-posts">
+					<header class="post-header">
+						<h2><a href="/2018/08/11/title-of-second-post.html">Feels like the first time...</a></h2>
+						<div class="post-byline">
+							<img src="https://gravatar.com/avatar/0a1ca7781578a0987c112f3950d32312?s=80">
+<a href="https://twitter.com/jmayoquai" class="social-link">
+	<i class="fab fa-twitter"></i>
+</a>
+by: john mayo
+<span>August 11, 2018</span>
+						</div>
+					</header>
+					<div class="posts-image"
+					style="background-image:url(/images/shark.jpg)"></div>
+					<p>Hey there! I’m working through the Learn Enough series; this is my first crack at building a blog site from scratch. So far I’ve found both Learn Enough HTML and Learn Enough CSS/Layout to be excellent at filling in gaps of my knowledge. For the record I have no idea how it compares to a code academy; I am self taught w/tips of the hat to Lynda, Udemy, One Month and more. Maybe I shouldn’t have completed the Rails tutorial first??? ( *finished before there was a such thing as the Learn Enough Courses). I look forward to their Ruby and Sinatra Courses. buuut next time I start something it won’t be on a monday morning….. I keep missing details as I code; side effects courtesy of post weekend/a.m. caffeine deficiency. :-)</p>
+
+
+					</div>
+			
+				<div class="blog-posts">
+					<header class="post-header">
+						<h2><a href="/2018/08/10/title-of-post.html">This is the title of the post</a></h2>
+						<div class="post-byline">
+							<img src="https://gravatar.com/avatar/ffda7d145b83c4b118f982401f962ca6?s=150">
+<a href="http://twitter.com/mhartl" class="social-link">
+	<i class="fab fa-twitter"></i>
+</a>
+by: Me, Myself, and I
+<span>August 10, 2018</span>
+						</div>
+					</header>
+					<div class="posts-image"
+					style="background-image:url(/images/shark.jpg)"></div>
+					<p>Call me <em>Ishmael</em>. Some years ago-<em>never mind how long
+precisely</em>-having little or no money in my purse, and nothing
+particular to interest me on shore, I thought I would sail about a little
+and see the watery part of the world. It is a way I have of driving off
+the spleen and regulating the circulation.</p>
+
+
+					</div>
+			
+		</div>	
+	</div>
+</div>
+		</div>
+		<!-- footer template -->
+		<footer class="footer">
+	<a class="footer-logo" href="/">
+		<img src="/images/logo.png" alt="Learn Enough"/>
+	</a>
+	<nav>
+		<ul class="footer-nav nav-links">
+			<li><a href="/">Home</a></li>
+<li><a href="/gallery">Gallery</a></li>
+<li class="dropdown">
+	<a class="drop-trigger" href="/blog">Blog</a>
+	<ul class="drop-menu">
+		<li>Recent Posts</li>
+		
+			<li><a href="/2018/08/12/Shining-with-Jekyll.html">Shining with Jekyll</a></li>
+		
+			<li><a href="/2018/08/11/title-of-second-post.html">Feels like the first time...</a></li>
+		
+			<li><a href="/2018/08/10/title-of-post.html">This is the title of the post</a></li>
+		
+	</ul>
+</li>
+<li><a href="/2018/08/12/Shining-with-Jekyll.html">Newest Post</a></li>
+
+		</ul>
+	</nav>
+	<h3>Learn Enough <span>to Be Dangerous</span></h3>
+	<!-- <ul class="social-nav">
+		<li>
+	<a href="https://facebook.com/learnenough" class="social-link">
+		<i class="fab fa-facebook"></i>
+	</a>
+</li>
+<li>
+	<a href="https://twitter.com/learnenough" class="social-link">
+		<i class="fab fa-twitter"></i>
+	</a>
+</li>
+<li>
+	<a href="https://twitter.com/learnenough" class="social-link">
+		<i class="fab fa-github"></i>
+	</a>
+</li>
+	</ul> -->
+
+</footer>
+
+	</body>
+</html>
+ 
