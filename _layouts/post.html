@@ -12,7 +12,12 @@ layout: default
 			<h1>{{ page.title }}</h2>
 				<!--byline wrapper class that will include gravatar image & twitter link & page author {Liquid code} -->
 			<div class="post-byline">
-				{% include blog-detail.html %}
+				<img src="{{ page.gravatar }}">
+				<a href="{{ page.authorTwitter }}" class="social-link">
+					<i class="fab fa-twitter"></i>
+				</a>
+				by: {{ page.author }}
+				<span>{{ post.date | date: '%B %d, %Y' }}</span>
 			</div>
 		</header>
 		<!-- aside wrapper is 3rd column that includes preview of recent posts, post titles and post dates -->

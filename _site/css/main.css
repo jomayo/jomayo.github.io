@@ -448,15 +448,15 @@ font-weight: 100;
  	bottom: 2vh;
  	color: #fff;
  	content: "﹀"; 	
- 	font-size: 36px;
- 	left: 46%;
+ 	font-size: 36px; 
+ 	left: 50%;	
  	position: absolute;
- 	transform: translate(50%, 0);
+ 	transform: translate(-50%, 0);
  }
 
 .hero-home {
 	background-image: url(/images/shark.jpg);
-	background-position: center top;
+	background-position: center center;
 }
 .hero-content {
 	color: #fff;
@@ -464,7 +464,7 @@ font-weight: 100;
 	text-align: center;
 	text-transform: uppercase;
 	top: 50%;
-	transform: translate(0, -20%);
+	transform: translate(0, -50%);
 }
 .hero-content h1 {
 	font-family: 'Raleway', helvetica, sans;
